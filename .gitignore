@@ -1,0 +1,13 @@
+*.DS_Store*
+/assets/
+/css/bg.gif
+/css/form.css
+/css/ie.css
+/css/main.css
+/css/print.css
+/css/screen.css
+/uploads/*
+/protected/config/*
+!/protected/config/*.conf
+/protected/runtime/*
+/themes/classic/
