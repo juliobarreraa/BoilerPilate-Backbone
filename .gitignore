@@ -11,3 +11,5 @@
 !/protected/config/*.conf
 /protected/runtime/*
 /themes/classic/
+/project.sublime-project
+/project.sublime-workspace
