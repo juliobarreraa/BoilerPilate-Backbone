@@ -28,7 +28,7 @@
 
 </div><!-- page -->
 
-<script src="<?php echo Yii::app()->baseUrl ?>/js/lib/require.min.js" data-main="<?php echo Yii::app()->baseUrl ?>/js/src/js/app"></script>
+<script src="<?php echo Yii::app()->baseUrl ?>/js/lib/require.min.js" data-main="<?php echo Yii::app()->baseUrl ?>/js/app"></script>
 
 </body>
 </html>

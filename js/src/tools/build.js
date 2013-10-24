@@ -6,8 +6,8 @@
 	//Stub out the cs module after a build since
     //it will not be needed.
     stubModules: ['cs'],
-    //"optimize": "uglify",
-    "optimize": "none",
+    "optimize": "uglify",
+    //"optimize": "none",
 	modules: [
 		{
 			"name": "app",
