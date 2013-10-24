@@ -13,7 +13,11 @@ require.config({
 		backboneapp: "../app/backbone",
 		underscore: "underscore.min",
 		helper: "helper",
-		bootstrap: "bootstrap.min"
+		bootstrap: "bootstrap.min",
+		productsCollection: "../backbone/collection/products",
+		productsModel: "../backbone/model/products",
+		productsView: "../backbone/view/products",
+		productsRouter: "../backbone/router/products"
 	},
 	"shim": {
 		jquery: {
@@ -26,7 +30,11 @@ require.config({
 			deps: ["jquery", "underscore"],
 			exports: "Backbone"
 		},
-		backboneapp: ["jquery"]
+		backboneapp: ["jquery"],
+		productsModel: ["backbone"],
+		productsCollection: ["cs!productsModel"],
+		productsView: ["cs!productsCollection"],
+		productsRouter: ["cs!productsView"]
 	}
 });
 
